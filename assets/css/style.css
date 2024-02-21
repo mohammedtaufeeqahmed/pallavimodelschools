@@ -7044,7 +7044,7 @@ Overview Area CSS
 
   padding: 50px;
 
-  max-width: 750px;
+  max-width: 600px;
 
   margin-left: auto;
 
@@ -7067,6 +7067,7 @@ Overview Area CSS
 .overview-content p {
 
   margin-bottom: 0;
+  text-align: justify;
 
 }
 
@@ -13318,7 +13319,7 @@ Buy Now Btn
 
 	font-size:36px;
 
-	color: #ea512e;
+	color: #155b2e;
 
 	text-align:center;
 
@@ -13526,7 +13527,7 @@ form button:hover{
 
 	background:rgba(169,199,11,0.1);
 
-	margin-bottom:120px;
+	margin-bottom:0px;
 
 }
 
