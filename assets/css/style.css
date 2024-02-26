@@ -2183,7 +2183,7 @@ Navbar Area CSS
 
   .main-responsive-nav .logo img {
 
-    max-width: 100px !important;
+    max-width: 230px !important;
 
   }
 
@@ -6953,7 +6953,7 @@ Overview Area CSS
 
 .overview-area {
 
-  background-image: url(../../assets/img/pallavi-kidz-model-school-009.jpg);
+  background-image: url(../../assets/img/scroll-img.webp);
 
   background-position: center center;
 
@@ -7026,7 +7026,7 @@ Page Banner CSS
 
   z-index: 1;
 
-  background-image: url(../../assets/img/pallavi-kidz-model-school-006.jpg);
+  background-image: url(../../assets/img/scroll-img.webp);
 
   background-position: center center;
 
@@ -13234,7 +13234,7 @@ Buy Now Btn
 
 .overview-area1 {
 
-    background-image: url(../../assets/img/pallavi-kidz-model-school-011.jpg);
+    background-image: url(../../assets/img/curriculum-scroll.webp);
 
     background-position: center center;
 
