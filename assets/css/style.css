@@ -10228,7 +10228,7 @@ Class Details  Area CSS
 
   font-weight: bold;
 
-  padding: 15px 125px;
+  padding: 15px 55px;
 
   width: 100%;
 
@@ -13332,7 +13332,7 @@ Buy Now Btn
 
 .branches-center-head-block-content{
 
-	background:#ea512e;
+	background:#155b2e;
 
 	text-align:center;
 
@@ -13438,7 +13438,7 @@ form input, form select, form textarea{
 
 form button{
 
-	background:#ea512e;
+	background:#155b2e;
 
 	padding:10px 40px;
 
@@ -13458,7 +13458,7 @@ form button:hover{
 
 .class-details-area{
 
-	background:rgba(169,199,11,0.1);
+	background:rgb(215 227 150);
 
 	margin-bottom:0px;
 
