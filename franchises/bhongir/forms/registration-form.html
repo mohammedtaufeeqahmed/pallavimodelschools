@@ -1,0 +1,1899 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Registration Form</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-datepicker.min.css"/>
+</head>
+<body>
+
+    <div class="main">
+        <section class="header">
+            <div class="container">
+                 <div class="row">
+                    <div class="col-sm-6 col-6"><img src="assets/images/logo.png"></div>
+                 </div>
+            </div>
+        </section>
+        <section>
+            <div class="container" id="myWizard">
+                 <div class="registration-form-body" style="max-width:100%">
+                    <div class="row form-header">
+                        <div class="col-sm-8 col-8">
+                            <h2>REGISTRATION FORM</h2>
+                        </div>
+                        <div class="col-sm-4 col-4 text-end">
+                            <div class="custom-button"><a href="#" class="btn theme-button btn-primary">DOWNLOAD PROSPECTUS</a></div>
+                        </div>
+                    </div>
+
+                    <!-- START: Define your progress bar here -->
+                    <div class="px-73">
+                        <div id="bar" class="progress" style="height: 10px;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bd-green" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="processbarPercentage row">
+                            <div class="progressvalue col-6">0%</div>
+                            <div class="progressTotal col-6 text-end">100%</div>
+                        </div>
+                    </div>
+                    <!-- END: Define your progress bar here -->
+
+
+                    <div class="navbar px-73">
+                        <div class="navbar-inner">
+                              <ul class="nav nav-pills">
+                                 <li class="active"><a href="#step1" data-toggle="tab" data-step="1">Student Details</a></li>
+                                 <li><a href="#step2" data-toggle="tab" data-step="2">Sports/ Co-Curricular</a></li>
+                                 <li><a href="#step3" data-toggle="tab" data-step="3">Parent Details</a></li>
+                                 <li><a href="#step4" data-toggle="tab" data-step="4">Communication Details</a></li>
+                                 <li><a href="#step5" data-toggle="tab" data-step="5">Upload Documents</a></li>
+                                 <li><a href="#step6" data-toggle="tab" data-step="6">Upload Photos</a></li>
+                                 <li><a href="#step7" data-toggle="tab" data-step="7">Submission</a></li>
+                              </ul>
+                        </div>
+                     </div>
+
+
+                    <div class="row form-inputs registration-form-inputs">
+                        <form>
+                            <div class="row">
+                                <div class="col-12 col-sm-4">
+                                    <label>Academic Year</label>
+                                    <select name="acadmicyear" class="form-select">
+                                        <option>Lorem Ipsum</option>
+                                        <option>Lorem Ipsum</option>
+                                        <option>Lorem Ipsum</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 col-sm-4">
+                                    <label>Campus</label>
+                                    <select name="campus" class="form-select" readonly>
+                                        <option>Lorem Ipsum</option>
+                                        <option>Lorem Ipsum</option>
+                                        <option>Lorem Ipsum</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-sm-4">
+                                    <label>Application Number</label>
+                                    <input type="text" placeholder="Application Number" value="NHAP220013" readonly>
+                                </div>
+                                <div class="col-12 col-sm-4">
+                                    <label>Application Date</label>
+                                    <input type="text" placeholder="Application Date" value="12/09/2021" readonly>
+                                </div>
+                                <div class="col-12 col-sm-4">
+                                    <label>Curriculum Sought</label>
+                                    <input type="text" placeholder="Curriculum Sought" value="CBSE" readonly>
+                                </div>
+                            </div>
+                            <div class="tab-content">
+                                <div class="tab-pane fade in active" id="step1">
+                                    <div class="well">
+                                        <div class="row">
+                                            <div class="accordion" id="accordionPanelsStayOpenExample">
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                                            BASIC INFORMATION
+                                                        </button>
+                                                      </h2>
+                                                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                                                        <div class="accordion-body">
+
+                                                            <div class="row">
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>Student Name</label>
+                                                                    <input name="studentName" type="text" placeholder="Student Name">
+                                                                </div>
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>Gender</label>
+                                                                    <input name="gender" type="text" placeholder="Gender">
+                                                                </div>
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>Blood Group</label>
+                                                                    <select name="bloodGroup" class="form-select">
+                                                                        <option>Please choose</option>
+                                                                        <option>Please choose</option>
+                                                                        <option>Please choose</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="row">
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>Date of Birth</label>
+                                                                    <input class="datepicker" name="dob" type="text" placeholder="DD/MM/YYYY">
+                                                                </div>
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>Place of Birth</label>
+                                                                    <input name="gender" type="pob" placeholder="Gender">
+                                                                </div>
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>Nationality</label>
+                                                                    <select name="bloodGroup" class="form-select">
+                                                                        <option>Please choose</option>
+                                                                        <option>Please choose</option>
+                                                                        <option>Please choose</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="row">
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>Your Phone Number</label>
+                                                                    <input type="tel" class="form-control" name="code" placeholder="+91">
+                                                                    <input type="tel" class="form-control" name="phone" placeholder="Your Phone Number">
+                                                                </div>
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>Email Address</label>
+                                                                    <input type="email" name="email" placeholder="Please enter details">
+                                                                </div>
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>Admission Sought for*</label>
+                                                                    <select name="bloodGroup" class="form-select">
+                                                                        <option>Please choose</option>
+                                                                        <option>Please choose</option>
+                                                                        <option>Please choose</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                      </div>
+                                                </div>
+
+
+                                                <div class="accordion-item mt-40 custom-accordionTabCss">
+                                                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true" aria-controls="panelsStayOpen-collapseTwo">
+                                                            EDUCATION INFORMATION
+                                                        </button>
+                                                      </h2>
+                                                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingTwo">
+                                                        <div class="accordion-body">
+
+                                                            <div class="row">
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>Last School Studied</label>
+                                                                    <input name="school_studied" type="text" placeholder="Last School Studied">
+                                                                </div>
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>Last Curriculum Studied</label>
+                                                                    <select name="last_curriculum_studied" class="form-select">
+                                                                        <option>Please choose</option>
+                                                                        <option>Please choose</option>
+                                                                        <option>Please choose</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>Last Place of School Studied</label>
+                                                                    <select name="last-plce-of-school-studied" class="form-select">
+                                                                        <option>Please choose</option>
+                                                                        <option>Please choose</option>
+                                                                        <option>Please choose</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="row">
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>Last Class Studied</label>
+                                                                    <select name="last-class-studied" class="form-select">
+                                                                        <option>Please choose</option>
+                                                                        <option>Please choose</option>
+                                                                        <option>Please choose</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>Admission Type</label>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="radio" id="inlineCheckbox1" value="Residential" name="inlineRadioOptions">
+                                                                        <label class="form-check-label" for="inlineCheckbox1">Residential</label>
+                                                                      </div>
+                                                                      <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="radio" id="inlineCheckbox2" value="Non-Residential" name="inlineRadioOptions">
+                                                                        <label class="form-check-label" for="inlineCheckbox2">Non-Residential</label>
+                                                                      </div>
+                                                                </div>
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>Are you an Employee of DPS?</label>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="radio" id="inlineCheckbox3" value="yes" name="inlineRadioOptions1">
+                                                                        <label class="form-check-label" for="inlineCheckbox3">Yes</label>
+                                                                      </div>
+                                                                      <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="radio" id="inlineCheckbox4" value="no" name="inlineRadioOptions1">
+                                                                        <label class="form-check-label" for="inlineCheckbox4">No</label>
+                                                                      </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="row">
+                                                                <div class="col-12 col-sm-12">
+                                                                    <label>Reason for Seeking Admission</label>
+                                                                    <textarea type="text" class="form-control" name="reason_for_seeking_admission" placeholder="Please enter details"></textarea>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                      </div>
+                                                </div>
+
+
+                                                <div class="accordion-item mt-40">
+                                                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true" aria-controls="panelsStayOpen-collapseThree">
+                                                            IDENTIFICATION INFORMATION
+                                                        </button>
+                                                      </h2>
+                                                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingThree">
+                                                        <div class="accordion-body">
+
+                                                            <div class="row">
+                                                                <div class="col-12 col-sm-12">
+                                                                    <label>Select UID Number</label>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="radio" id="inlineCheckbox5" value="Aadhaar Card" name="uidNumber" checked>
+                                                                        <label class="form-check-label" for="inlineCheckbox5">Aadhaar Card</label>
+                                                                      </div>
+                                                                      <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="radio" id="inlineCheckbox6" value="Foreign National Passport Number" name="uidNumber">
+                                                                        <label class="form-check-label" for="inlineCheckbox6">Foreign National Passport Number</label>
+                                                                      </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="row">
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>ID Number</label>
+                                                                    <input name="idNumber" type="text" placeholder="Please enter details">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="row">
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>Identification Mark I</label>
+                                                                    <input name="IdentificationMark1" type="text" placeholder="Please enter details">
+                                                                </div>
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>Identification Mark II</label>
+                                                                    <input name="IdentificationMark2" type="text" placeholder="Please enter details">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="row">
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>Religion</label>
+                                                                    <select name="religion" class="form-select">
+                                                                        <option>Please choose</option>
+                                                                        <option>Please choose</option>
+                                                                        <option>Please choose</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>Caste</label>
+                                                                    <select name="caste" class="form-select">
+                                                                        <option>Please choose</option>
+                                                                        <option>Please choose</option>
+                                                                        <option>Please choose</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>Mother Tongue</label>
+                                                                    <select name="mother-tongue" class="form-select">
+                                                                        <option>Please choose</option>
+                                                                        <option>Please choose</option>
+                                                                        <option>Please choose</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="row">
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>First Language</label>
+                                                                    <select name="FirstLanguage" class="form-select">
+                                                                        <option>Please choose</option>
+                                                                        <option>Please choose</option>
+                                                                        <option>Please choose</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>Second Language</label>
+                                                                    <select name="SecondLanguage" class="form-select">
+                                                                        <option>Please choose</option>
+                                                                        <option>Please choose</option>
+                                                                        <option>Please choose</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>Third Language</label>
+                                                                    <select name="ThirdLanguage" class="form-select">
+                                                                        <option>Please choose</option>
+                                                                        <option>Please choose</option>
+                                                                        <option>Please choose</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                      </div>
+                                                </div>
+
+
+                                                <div class="accordion-item mt-40 custom-accordionTabCss">
+                                                    <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="true" aria-controls="panelsStayOpen-collapseFour">
+                                                            FAMILY INFORMATION
+                                                        </button>
+                                                      </h2>
+                                                      <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingFour">
+                                                        <div class="accordion-body">
+
+
+                                                            <div class="row">
+                                                                <div class="col-12 col-sm-5">
+                                                                    <label>Whether the Candidate is a Single Child?</label>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="radio" id="inlineCheckbox7" value="Yes" name="SingleChild" checked>
+                                                                        <label class="form-check-label" for="inlineCheckbox7">Yes</label>
+                                                                      </div>
+                                                                      <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="radio" id="inlineCheckbox8" value="No" name="SingleChild">
+                                                                        <label class="form-check-label" for="inlineCheckbox8">No</label>
+                                                                      </div>
+                                                                </div>
+                                                                <div class="col-12 col-sm-7">
+                                                                    <label>Whether the Candidate is a Specially Abled (Divyangajan)?</label>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="radio" id="inlineCheckbox9" value="Yes" name="divyangajan" checked>
+                                                                        <label class="form-check-label" for="inlineCheckbox9">Yes</label>
+                                                                      </div>
+                                                                      <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="radio" id="inlineCheckbox10" value="No" name="divyangajan">
+                                                                        <label class="form-check-label" for="inlineCheckbox10">No</label>
+                                                                      </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="row">
+                                                                <div class="col-12 col-sm-12">
+                                                                    <label>Health Status</label>
+                                                                    <textarea type="text" class="form-control" name="healthStatus" placeholder="Please enter details"></textarea>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="row">
+                                                                <div class="col-12 col-sm-5">
+                                                                    <label>Does the candidate have any sibling?</label>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="radio" id="inlineCheckbox7" value="Yes" name="sibling" checked>
+                                                                        <label class="form-check-label" for="inlineCheckbox11">Yes</label>
+                                                                      </div>
+                                                                      <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="radio" id="inlineCheckbox12" value="No" name="sibling">
+                                                                        <label class="form-check-label" for="inlineCheckbox8">No</label>
+                                                                      </div>
+                                                                </div>
+                                                                <div class="col-12 col-sm-7">
+                                                                    <label>Is the sibling studying in same school?</label>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="radio" id="inlineCheckbox13" value="Yes" name="siblingStudyin" checked>
+                                                                        <label class="form-check-label" for="inlineCheckbox9">Yes</label>
+                                                                      </div>
+                                                                      <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="radio" id="inlineCheckbox14" value="No" name="siblingStudyin">
+                                                                        <label class="form-check-label" for="inlineCheckbox10">No</label>
+                                                                      </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="row">
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>Sibling Student Name</label>
+                                                                    <input name="school_studied" type="text" placeholder="Please enter details">
+                                                                </div>
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>Sibling Student ID</label>
+                                                                    <input name="school_studied" type="text" placeholder="Please enter details">
+                                                                </div>
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>Sibling Student Curriculum</label>
+                                                                    <select name="last-plce-of-school-studied" class="form-select">
+                                                                        <option>Please choose</option>
+                                                                        <option>Please choose</option>
+                                                                        <option>Please choose</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="row">
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>Sibling Student Campus</label>
+                                                                    <select name="last-class-studied" class="form-select">
+                                                                        <option>Please choose</option>
+                                                                        <option>Please choose</option>
+                                                                        <option>Please choose</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>Sibling Student Class</label>
+                                                                    <select name="last-plce-of-school-studied" class="form-select">
+                                                                        <option>Please choose</option>
+                                                                        <option>Please choose</option>
+                                                                        <option>Please choose</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>Sibling Student Section</label>
+                                                                    <select name="last-plce-of-school-studied" class="form-select">
+                                                                        <option>Please choose</option>
+                                                                        <option>Please choose</option>
+                                                                        <option>Please choose</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="row">
+                                                                <div class="col-12 col-sm-12">
+                                                                    <label>Sibling Student Details</label>
+                                                                    <textarea type="text" class="form-control" placeholder="Please enter details"></textarea>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="row">
+                                                                <div class="col-12 col-sm-12">
+                                                                    <button type="button" class="btn btn-outline-green mr-30" href="#">Add sibling details</button>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                      </div>
+                                                </div>
+
+
+                                                <div class="accordion-item mt-40">
+                                                    <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="true" aria-controls="panelsStayOpen-collapseFive">
+                                                            FACILITIES REQUIRED
+                                                        </button>
+                                                      </h2>
+                                                      <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingFive">
+                                                        <div class="accordion-body">
+
+                                                            <div class="row">
+                                                                <div class="col-12 col-sm-12">
+                                                                    <div class="form-check check-box">
+                                                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck19">
+                                                                        <label class="form-check-label" for="defaultCheck19">
+                                                                            School Transport
+                                                                        </label>
+                                                                      </div>
+                                                                      <div class="form-check  check-box">
+                                                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck20">
+                                                                        <label class="form-check-label" for="defaultCheck20">
+                                                                            Lunch Facility
+                                                                        </label>
+                                                                      </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                      </div>
+                                                </div>
+                                                
+
+                                            </div>
+                                        </div>
+                                        <div class="row nav-buttons-bottom nav nav-pills">
+                                            <div class="container text-end">
+                                                <a class="btn btn-outline-secondary disabled prev mr-30" href="#">Previous</a>
+                                                <a href="#step2" data-toggle="tab" data-step="2" aria-expanded="true" class="btn btn-success next">Next</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                    <div class="tab-pane" id="step2">
+                                        <div class="well">
+                                            <div class="row">
+                                                <div class="accordion" id="accordionPanelsStayOpenExample">
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+                                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="true" aria-controls="panelsStayOpen-collapseSix">
+                                                                DOCUMENT INFORMATION
+                                                            </button>
+                                                          </h2>
+                                                          <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingSix">
+                                                            <div class="accordion-body">
+    
+                                                                <div class="row">
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Level</label>
+                                                                        <select name="last-plce-of-school-studied" class="form-select">
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="row">
+                                                                    <div class="col-12 col-sm-12">
+                                                                        <label>Description</label>
+                                                                        <textarea type="text" class="form-control" name="reason_for_seeking_admission" placeholder="Please enter details"></textarea>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="row">
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Category</label>
+                                                                        <select name="last-plce-of-school-studied" class="form-select">
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Choose File</label>
+                                                                        <select name="last-plce-of-school-studied" class="form-select">
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Choose File</label>
+                                                                        <input type="file" class="icondemo fileUpload">
+                                                                        <button type="button" class="btn btn-orange mr-30 mt-20" href="#">UPLOAD</button>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="row">
+                                                                    <div class="col-12 col-sm-12">
+                                                                        <button  type="button" class="btn btn-outline-green mr-30" href="#">Add Document</button>
+                                                                    </div>
+                                                                </div>
+    
+                                                            </div>
+                                                          </div>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
+                                            <div class="row nav-buttons-bottom">
+                                                <div class="container text-end">
+                                                    <button class="btn btn-outline-secondary prev mr-30" href="#step1" data-toggle="tab" data-step="1" aria-expanded="true" >Previous</button>
+                                                    <button class="btn btn-success next" href="#step3" data-toggle="tab" data-step="3" aria-expanded="true" >Next</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="tab-pane" id="step3">
+                                        <div class="well">
+                                            <div class="row">
+                                                <div class="accordion" id="accordionPanelsStayOpenExample">
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
+                                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="true" aria-controls="panelsStayOpen-collapseSeven">
+                                                                FATHER’S DETAILS
+                                                            </button>
+                                                          </h2>
+                                                          <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingSeven">
+                                                            <div class="accordion-body">
+    
+                                                                <div class="row">
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Name</label>
+                                                                        <input name="fatherName" type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Nationality</label>
+                                                                        <select name="nationality" class="form-select">
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Occupation</label>
+                                                                        <select name="occupation" class="form-select">
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="row">
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Qualification</label>
+                                                                        <select name="occupation" class="form-select">
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Specify Qualification</label>
+                                                                        <input name="specifyQualification" type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Designation</label>
+                                                                        <select name="designation" class="form-select">
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="row">
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Your Phone Number</label>
+                                                                        <input type="tel" class="form-control" name="code" placeholder="+91">
+                                                                        <input type="tel" class="form-control" name="fatherPhone" placeholder="Your Phone Number">
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Email Address</label>
+                                                                        <input type="email" name="fatherEmail" placeholder="Your Email Address">
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Aadhaar Number</label>
+                                                                        <input type="text" name="aadher" placeholder="XXXX - XXXX - XXXX">
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="row">
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Name of the Organisation</label>
+                                                                        <input type="text" class="form-control" name="organisation" placeholder="Please enter details">
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-8">
+                                                                        <label>Address of the Organisation</label>
+                                                                        <input type="text" name="addressOfOrganisation" placeholder="Please enter details">
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="row">
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Name of the Organisation</label>
+                                                                        <select name="nameOfTheOrganisation" class="form-select">
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="row">
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Are you a Single Parent?</label>
+                                                                        <div class="form-check form-check-inline">
+                                                                            <input class="form-check-input" type="radio" id="inlineCheckbox21" value="Yes" name="singleParent" checked="">
+                                                                            <label class="form-check-label" for="inlineCheckbox21">Yes</label>
+                                                                          </div>
+                                                                          <div class="form-check form-check-inline">
+                                                                            <input class="form-check-input" type="radio" id="inlineCheckbox22" value="No" name="singleParent">
+                                                                            <label class="form-check-label" for="inlineCheckbox22">No</label>
+                                                                          </div>
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>If Yes, Choose from Below</label>
+                                                                        <select name="choose" class="form-select">
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+
+    
+                                                            </div>
+                                                          </div>
+                                                    </div>
+
+
+                                                    <div class="accordion-item mt-40">
+                                                        <h2 class="accordion-header" id="panelsStayOpen-headingEight">
+                                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="true" aria-controls="panelsStayOpen-collapseEight">
+                                                                MOTHER’S DETAILS
+                                                            </button>
+                                                          </h2>
+                                                          <div id="panelsStayOpen-collapseEight" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingEight">
+                                                            <div class="accordion-body">
+    
+                                                                <div class="row">
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Name</label>
+                                                                        <input name="motherName" type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Nationality</label>
+                                                                        <select name="motherNationality" class="form-select">
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Occupation</label>
+                                                                        <select name="motherOccupation" class="form-select">
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="row">
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Qualification</label>
+                                                                        <select name="motherQualification" class="form-select">
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Specify Qualification</label>
+                                                                        <input name="motherSpecifyQualification" type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Designation</label>
+                                                                        <select name="motherDesignation" class="form-select">
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="row">
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Your Phone Number</label>
+                                                                        <input type="tel" class="form-control" name="code" placeholder="+91">
+                                                                        <input type="tel" class="form-control" name="motherPhone" placeholder="Your Phone Number">
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Email Address</label>
+                                                                        <input type="email" name="motherEmail" placeholder="Your Email Address">
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Aadhaar Number</label>
+                                                                        <input type="text" name="montherAadher" placeholder="XXXX - XXXX - XXXX">
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="row">
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Name of the Organisation</label>
+                                                                        <input type="text" class="form-control" name="organisation" placeholder="Please enter details">
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-8">
+                                                                        <label>Address of the Organisation</label>
+                                                                        <input type="text" name="addressOfOrganisation" placeholder="Please enter details">
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="row">
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Name of the Organisation</label>
+                                                                        <select name="nameOfTheOrganisation" class="form-select">
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="row">
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Are you a Single Parent?</label>
+                                                                        <div class="form-check form-check-inline">
+                                                                            <input class="form-check-input" type="radio" id="inlineCheckbox21" value="Yes" name="singleParent" checked="">
+                                                                            <label class="form-check-label" for="inlineCheckbox21">Yes</label>
+                                                                          </div>
+                                                                          <div class="form-check form-check-inline">
+                                                                            <input class="form-check-input" type="radio" id="inlineCheckbox22" value="No" name="singleParent">
+                                                                            <label class="form-check-label" for="inlineCheckbox22">No</label>
+                                                                          </div>
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>If Yes, Choose from Below</label>
+                                                                        <select name="choose" class="form-select">
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+
+    
+                                                            </div>
+                                                          </div>
+                                                    </div>
+
+
+                                                    <div class="accordion-item mt-40">
+                                                        <h2 class="accordion-header" id="panelsStayOpen-headingNine">
+                                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseNine" aria-expanded="true" aria-controls="panelsStayOpen-collapseNine">
+                                                                GUARDIAN’S DETAILS
+                                                            </button>
+                                                          </h2>
+                                                          <div id="panelsStayOpen-collapseNine" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingNine">
+                                                            <div class="accordion-body">
+
+
+                                                                <div class="row">
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Guardian</label>
+                                                                        <div class="form-check form-check-inline">
+                                                                            <input class="form-check-input" type="radio" id="inlineCheckbox23" value="Yes" name="Guardian" checked="">
+                                                                            <label class="form-check-label" for="inlineCheckbox23">Yes</label>
+                                                                          </div>
+                                                                          <div class="form-check form-check-inline">
+                                                                            <input class="form-check-input" type="radio" id="inlineCheckbox24" value="No" name="Guardian">
+                                                                            <label class="form-check-label" for="inlineCheckbox24">No</label>
+                                                                          </div>
+                                                                    </div>
+                                                                </div>
+    
+                                                                <div class="row">
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Name</label>
+                                                                        <input name="guName" type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Nationality</label>
+                                                                        <select name="guNationality" class="form-select">
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    
+                                                                </div>
+
+                                                                <div class="row">
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Occupation</label>
+                                                                        <select name="motherOccupation" class="form-select">
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Designation</label>
+                                                                        <select name="motherDesignation" class="form-select">
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Aadhaar Number</label>
+                                                                        <input type="text" name="montherAadher" placeholder="XXXX - XXXX - XXXX">
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="row">
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Your Phone Number</label>
+                                                                        <input type="tel" class="form-control" name="code" placeholder="+91">
+                                                                        <input type="tel" class="form-control" name="motherPhone" placeholder="Your Phone Number">
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Email Address</label>
+                                                                        <input type="email" name="motherEmail" placeholder="Your Email Address">
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Relation with Student</label>
+                                                                        <select name="relationWithStudent" class="form-select">
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+
+                                                                
+
+    
+                                                            </div>
+                                                          </div>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
+                                            <div class="row nav-buttons-bottom">
+                                                <div class="container text-end">
+                                                    <button class="btn btn-outline-secondary prev mr-30" href="#step2" data-toggle="tab" data-step="2" aria-expanded="true" >Previous</button>
+                                                    <button class="btn btn-success next" href="#step4" data-toggle="tab" data-step="4" aria-expanded="true" >Next</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-pane" id="step4">
+                                        <div class="well">
+                                            <div class="row">
+                                                <div class="accordion" id="accordionPanelsStayOpenExample">
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header" id="panelsStayOpen-headingTen">
+                                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTen" aria-expanded="true" aria-controls="panelsStayOpen-collapseTen">
+                                                                RESIDENTIAL ADDRESS
+                                                            </button>
+                                                          </h2>
+                                                          <div id="panelsStayOpen-collapseTen" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingTen">
+                                                            <div class="accordion-body">
+    
+                                                                <div class="row">
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>H.No./ Flat No.</label>
+                                                                        <input name="flatNo" type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Address Line 01</label>
+                                                                        <input name="addressline1" type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Address Line 02 (Optional)</label>
+                                                                        <input name="addressline2" type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                </div>
+    
+                                                                <div class="row">
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Landmark</label>
+                                                                        <input name="landmark" type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>City</label>
+                                                                        <select name="city" class="form-select">
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>State</label>
+                                                                        <select name="state" class="form-select">
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+    
+                                                                <div class="row">
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Pincode/ Zip Code</label>
+                                                                        <input type="text" name="pincode" placeholder="Please enter details">
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Country</label>
+                                                                        <select name="country" class="form-select">
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Location</label>
+                                                                        <input type="text" name="location" class="Location" placeholder="Please start typing your location">
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="row">
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Distance from School</label>
+                                                                        <select name="distanceFromSchool" class="form-select">
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Area</label>
+                                                                        <select name="area" class="form-select">
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+    
+                                                            </div>
+                                                          </div>
+                                                    </div>
+
+
+                                                    <div class="accordion-item mt-40">
+                                                        <h2 class="accordion-header" id="panelsStayOpen-headingEleven">
+                                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEleven" aria-expanded="true" aria-controls="panelsStayOpen-collapseEleven">
+                                                                RESIDENTIAL ADDRESS
+                                                            </button>
+                                                          </h2>
+                                                          <div id="panelsStayOpen-collapseEleven" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingEleven">
+                                                            <div class="accordion-body">
+                                                                <div class="row">
+                                                                    <div class="col-12 col-sm-12">
+                                                                        <label>Same as Residential Address</label>
+                                                                        <div class="form-check form-check-inline">
+                                                                            <input class="form-check-input" type="radio" id="inlineCheckbox11" value="Yes" name="residential">
+                                                                            <label class="form-check-label" for="inlineCheckbox11">Yes</label>
+                                                                          </div>
+                                                                          <div class="form-check form-check-inline">
+                                                                            <input class="form-check-input" type="radio" id="inlineCheckbox12" value="No" name="residential" checked="">
+                                                                            <label class="form-check-label" for="inlineCheckbox12">No</label>
+                                                                          </div>
+                                                                    </div>
+                                                                </div>
+
+
+    
+                                                                <div class="row">
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>H.No./ Flat No.</label>
+                                                                        <input name="flatNo" type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Address Line 01</label>
+                                                                        <input name="addressline1" type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Address Line 02 (Optional)</label>
+                                                                        <input name="addressline2" type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                </div>
+    
+                                                                <div class="row">
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Landmark</label>
+                                                                        <input name="landmark" type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>City</label>
+                                                                        <select name="city" class="form-select">
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>State</label>
+                                                                        <select name="state" class="form-select">
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+    
+                                                                <div class="row">
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Pincode/ Zip Code</label>
+                                                                        <input type="text" name="pincode" placeholder="Please enter details">
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Country</label>
+                                                                        <select name="country" class="form-select">
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Location</label>
+                                                                        <input type="text" name="location" class="Location" placeholder="Please start typing your location">
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="row">
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Distance from School</label>
+                                                                        <select name="distanceFromSchool" class="form-select">
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Area</label>
+                                                                        <select name="area" class="form-select">
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+    
+                                                            </div>
+                                                          </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="row nav-buttons-bottom">
+                                                <div class="container text-end">
+                                                    <button class="btn btn-outline-secondary prev mr-30" href="#step3" data-toggle="tab" data-step="3" aria-expanded="true" >Previous</button>
+                                                    <button class="btn btn-success next" href="#step5" data-toggle="tab" data-step="5" aria-expanded="true" >Next</button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                    <div class="tab-pane" id="step5">
+                                        <div class="well">
+                                            <div class="row">
+                                                <div class="accordion" id="accordionPanelsStayOpenExample">
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header" id="panelsStayOpen-headingTwelve">
+                                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwelve" aria-expanded="true" aria-controls="panelsStayOpen-collapseTwelve">
+                                                                DOCUMENTS FOR SUBMISSION
+                                                            </button>
+                                                          </h2>
+                                                          <div id="panelsStayOpen-collapseTwelve" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingTwelve">
+                                                            <div class="accordion-body">
+                                                                <div class="row textPara">
+                                                                    <h5>Specifications for uploading documents</h5>
+                                                                    <p>All files must be in JPG/JPEG-format to be accepted for uploading.However all the pages of report cards be saved as pdf format and then upload. Maximum size allowed 500kb. You must scan your original documents, Photographs of documents are acceptable</p>
+                                                                    <p class="text-green"><b>Note :</b> Please save the entire document (all the pages) in pdf format and then upload. Size - 500kb(Only for Report Cards)</p>
+                                                                </div>
+
+                                                                <div class="row">
+                                                                    <div class="col-4">
+                                                                        <label>Document Name</label>
+                                                                        <input type="text" placeholder="Bonafide Certificate" readyonly>
+                                                                    </div>
+                                                                    <div class="col-4">
+                                                                        <label>Choose File</label>
+                                                                        <input type="file" class="icondemo fileUpload">
+                                                                    </div>
+                                                                    <div class="col-4">
+                                                                        <button type="button" class="btn btn-orange mt-40" href="#">UPLOAD</button>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="row">
+                                                                    <div class="col-4">
+                                                                        <input type="text" placeholder="Date of Birth Certificate" readyonly>
+                                                                    </div>
+                                                                    <div class="col-4">
+                                                                        <input type="file" class="icondemo fileUpload">
+                                                                    </div>
+                                                                    <div class="col-4">
+                                                                        <button type="button" class="btn btn-orange" href="#">UPLOAD</button>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="row">
+                                                                    <div class="col-4">
+                                                                        <input type="text" placeholder="Report Card of Current Term of the Year" readyonly>
+                                                                    </div>
+                                                                    <div class="col-4">
+                                                                        <input type="file" class="icondemo fileUpload">
+                                                                    </div>
+                                                                    <div class="col-4">
+                                                                        <button type="button" class="btn btn-orange" href="#">UPLOAD</button>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col-4">
+                                                                        <input type="text" placeholder="Final Report Card of Last Year" readyonly>
+                                                                    </div>
+                                                                    <div class="col-4">
+                                                                        <input type="file" class="icondemo fileUpload">
+                                                                    </div>
+                                                                    <div class="col-4">
+                                                                        <button type="button" class="btn btn-orange" href="#">UPLOAD</button>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col-4">
+                                                                        <input type="text" placeholder="Final Report Card of Last Second Year" readyonly>
+                                                                    </div>
+                                                                    <div class="col-4">
+                                                                        <input type="file" class="icondemo fileUpload">
+                                                                    </div>
+                                                                    <div class="col-4">
+                                                                        <button type="button" class="btn btn-orange" href="#">UPLOAD</button>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col-4">
+                                                                        <input type="text" placeholder="Aadhaar Card/ Foreign National Passport" readyonly>
+                                                                    </div>
+                                                                    <div class="col-4">
+                                                                        <input type="file" class="icondemo fileUpload">
+                                                                    </div>
+                                                                    <div class="col-4">
+                                                                        <button type="button" class="btn btn-orange" href="#">UPLOAD</button>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col-4">
+                                                                        <input type="text" placeholder="Residential Address" readyonly>
+                                                                    </div>
+                                                                    <div class="col-4">
+                                                                        <input type="file" class="icondemo fileUpload">
+                                                                    </div>
+                                                                    <div class="col-4">
+                                                                        <button type="button" class="btn btn-orange" href="#">UPLOAD</button>
+                                                                    </div>
+                                                                </div>
+    
+                                                            </div>
+                                                          </div>
+                                                    </div>
+
+
+                                                    <div class="accordion-item mt-40">
+                                                        <h2 class="accordion-header" id="panelsStayOpen-headingThirteen">
+                                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThirteen" aria-expanded="true" aria-controls="panelsStayOpen-collapseThirteen">
+                                                                ACADEMIC DETAILS
+                                                            </button>
+                                                          </h2>
+                                                          <div id="panelsStayOpen-collapseThirteen" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingThirteen">
+                                                            <div class="accordion-body">
+                                                                <div class="row">
+                                                                    <div class="col-12 col-sm-4">
+                                                                        <label>Latest Academic Percentage</label>
+                                                                        <select class="form-select">
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                            <option>Please choose</option>
+                                                                        </select>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <label>Results of  Last Class (2020)</label>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col">
+                                                                        <label>Subject</label>
+                                                                        <input type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                    <div class="col">
+                                                                        <label>Maximum Marks</label>
+                                                                        <input type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                    <div class="col">
+                                                                        <label>Marks Obtained</label>
+                                                                        <input type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                    <div class="col">
+                                                                        <label>% of Marks</label>
+                                                                        <input type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                    <div class="col">
+                                                                        <label>Remarks</label>
+                                                                        <input type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="row">
+                                                                    <div class="col">
+                                                                        <input type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                    <div class="col">
+                                                                        <input type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                    <div class="col">
+                                                                        <input type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                    <div class="col">
+                                                                        <input type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                    <div class="col">
+                                                                        <input type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="row">
+                                                                    <div class="col">
+                                                                        <input type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                    <div class="col">
+                                                                        <input type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                    <div class="col">
+                                                                        <input type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                    <div class="col">
+                                                                        <input type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                    <div class="col">
+                                                                        <input type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="row">
+                                                                    <div class="col"><button type="button" class="btn btn-outline-green" href="#">Add Record</button></div>
+                                                                </div>
+
+
+                                                                <div class="row">
+                                                                    <label>Results of  Last Class (2019)</label>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col">
+                                                                        <label>Subject</label>
+                                                                        <input type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                    <div class="col">
+                                                                        <label>Maximum Marks</label>
+                                                                        <input type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                    <div class="col">
+                                                                        <label>Marks Obtained</label>
+                                                                        <input type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                    <div class="col">
+                                                                        <label>% of Marks</label>
+                                                                        <input type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                    <div class="col">
+                                                                        <label>Remarks</label>
+                                                                        <input type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="row">
+                                                                    <div class="col">
+                                                                        <input type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                    <div class="col">
+                                                                        <input type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                    <div class="col">
+                                                                        <input type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                    <div class="col">
+                                                                        <input type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                    <div class="col">
+                                                                        <input type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="row">
+                                                                    <div class="col">
+                                                                        <input type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                    <div class="col">
+                                                                        <input type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                    <div class="col">
+                                                                        <input type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                    <div class="col">
+                                                                        <input type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                    <div class="col">
+                                                                        <input type="text" placeholder="Please enter details">
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="row">
+                                                                    <div class="col"><button type="button" class="btn btn-outline-green" href="#">Add Record</button></div>
+                                                                </div>
+
+                                                            </div>
+                                                          </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="row nav-buttons-bottom">
+                                                <div class="container text-end">
+                                                    <button class="btn btn-outline-secondary prev mr-30" href="#step4" data-toggle="tab" data-step="4" aria-expanded="true" >Previous</button>
+                                                    <button class="btn btn-success next" href="#step6" data-toggle="tab" data-step="6" aria-expanded="true" >Next</button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane" id="step6">
+                                    <div class="well">
+                                        <div class="row">
+                                            <div class="accordion" id="accordionPanelsStayOpenExample">
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header" id="panelsStayOpen-headingFourteen">
+                                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFourteen" aria-expanded="true" aria-controls="panelsStayOpen-collapseFourteen">
+                                                            DOCUMENT SUBMISSION GUIDELINES
+                                                        </button>
+                                                    </h2>
+                                                    <div id="panelsStayOpen-collapseFourteen" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingFourteen">
+                                                        <div class="accordion-body">
+                                                            <div class="row textPara">
+                                                                <h5>Specifications for uploading photographs</h5>
+                                                                <ul>
+                                                                    <li>Photograph must be a recent passport size Color photograph.</li>
+                                                                    <li>Maximum size 50kb allowed in JPG or JPEG format.</li>
+                                                                    <li>Dimensions 200 x 230 pixels (preferred).</li>
+                                                                    <li><b>Scanned photographs: </b>If you scan a photograph,
+                                                                        Set the scanner resolution to a minimum of 300 dpi (dots per inch).
+                                                                        Crop the image in the scanner to the edge of the photograph, then use MS Paint to crop the image to the correct size.</li>
+
+                                                                </ul>
+                                                                <h5 class="mt-20">Photo Type</h5>
+                                                                <ul>
+                                                                    <li>Photo should be in full colour and of high quality to avoid any visible pixels.</li>
+                                                                    <li>Photo must be taken in the last 3 months.</li>
+                                                                    <li>Have a natural expression - smiling is allowed.</li>
+                                                                    <li> Head should be positioned directly facing camera, centered and compose 80% of image. Photo should capture from slightly above top of hair to middle of chest.</li>
+                                                                    <li>Subject (candidate) is in clear focus and distinguishable from the background. Solid colour backgrounds are best.</li>
+                                                                    <li>Eyes must be open and looking at the camera. Glasses must not be tinted unless worn daily for medical purposes.</li>
+                                                                    <li>The individual’s full face must be clearly visible.</li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="row mt-0"><button type="button" class="btn btn-orange" href="#">ADDITIONAL GUIDELINES</button></div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="accordion-item mt-40">
+                                                    <h2 class="accordion-header" id="panelsStayOpen-headingThirteen">
+                                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThirteen" aria-expanded="true" aria-controls="panelsStayOpen-collapseThirteen">
+                                                            DOCUMENTS FOR SUBMISSION
+                                                        </button>
+                                                      </h2>
+                                                      <div id="panelsStayOpen-collapseThirteen" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingThirteen">
+                                                        <div class="accordion-body">
+                                                            <div class="row">
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>Student Details</label>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="row">
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>Photo</label>
+                                                                    <input type="file" class="icondemo fileUpload">
+                                                                </div>
+                                                                <div class="col-12 col-sm-4">
+                                                                    <button type="button" class="btn btn-orange mt-40" href="#">UPLOAD</button>
+                                                                </div>
+                                                                <div class="col-12 col-sm-4">
+                                                                    <img src="assets/images/profile.png" class="profileImg">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="row">
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>Father’s Details</label>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="row">
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>Photo</label>
+                                                                    <input type="file" class="icondemo fileUpload">
+                                                                </div>
+                                                                <div class="col-12 col-sm-4">
+                                                                    <button type="button" class="btn btn-orange mt-40" href="#">UPLOAD</button>
+                                                                </div>
+                                                                <div class="col-12 col-sm-4">
+                                                                    <img src="assets/images/profile.png" class="profileImg">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="row align-items-end">
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>Signature</label>
+                                                                    <input type="file" class="icondemo fileUpload">
+                                                                </div>
+                                                                <div class="col-12 col-sm-4">
+                                                                    <button type="button" class="btn btn-orange" href="#">UPLOAD</button>
+                                                                </div>
+                                                                <div class="col-12 col-sm-4">
+                                                                    <img src="assets/images/signature.png" class="profileImg">
+                                                                </div>
+                                                            </div>
+
+
+                                                            <div class="row">
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>Mother’s Details</label>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="row">
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>Photo</label>
+                                                                    <input type="file" class="icondemo fileUpload">
+                                                                </div>
+                                                                <div class="col-12 col-sm-4">
+                                                                    <button type="button" class="btn btn-orange mt-40" href="#">UPLOAD</button>
+                                                                </div>
+                                                                <div class="col-12 col-sm-4">
+                                                                    <img src="assets/images/profile.png" class="profileImg">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="row align-items-end">
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>Signature</label>
+                                                                    <input type="file" class="icondemo fileUpload">
+                                                                </div>
+                                                                <div class="col-12 col-sm-4">
+                                                                    <button type="button" class="btn btn-orange" href="#">UPLOAD</button>
+                                                                </div>
+                                                                <div class="col-12 col-sm-4">
+                                                                    <img src="assets/images/signature.png" class="profileImg">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="row">
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>Guardian’s Details</label>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="row align-items-end">
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>Photo</label>
+                                                                    <input type="file" class="icondemo fileUpload">
+                                                                </div>
+                                                                <div class="col-12 col-sm-4">
+                                                                    <button type="button" class="btn btn-orange" href="#">UPLOAD</button>
+                                                                </div>
+                                                                <div class="col-12 col-sm-4">
+                                                                    <img src="assets/images/profile.png" class="profileImg">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="row align-items-end">
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>Signature</label>
+                                                                    <input type="file" class="icondemo fileUpload">
+                                                                </div>
+                                                                <div class="col-12 col-sm-4">
+                                                                    <button type="button" class="btn btn-orange" href="#">UPLOAD</button>
+                                                                </div>
+                                                                <div class="col-12 col-sm-4">
+                                                                    <img src="assets/images/signature.png" class="profileImg">
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                      </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="row nav-buttons-bottom">
+                                            <div class="container text-end">
+                                                <button class="btn btn-outline-secondary prev mr-30" href="#step5" data-toggle="tab" data-step="5" aria-expanded="true" >Previous</button>
+                                                <button class="btn btn-success next" href="#step7" data-toggle="tab" data-step="7" aria-expanded="true" >Next</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                                <div class="tab-pane" id="step7">
+                                    <div class="well">
+                                        <div class="row">
+                                            <div class="accordion" id="accordionPanelsStayOpenExample">
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header" id="panelsStayOpen-headingSixteen">
+                                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSixteen" aria-expanded="true" aria-controls="panelsStayOpen-collapseSixteen">
+                                                            DECLARATION
+                                                        </button>
+                                                    </h2>
+                                                    <div id="panelsStayOpen-collapseSixteen" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingSixteen">
+                                                        <div class="accordion-body">
+                                                            <div class="row textPara">
+                                                                <ul>
+                                                                    <li>I hereby declare that name of my ward,date of birth,our names(Father and mother) mentioned in the form are correct to the best of our knowledge.	
+                                                                    </li>
+                                                                    <li>Names mentioned above are as per the Birth certificate and Aadhar card.</li>
+                                                                    <li>I am aware that Registration fee is non refundable. Obtaining application form/applying online does not imply admission. Admission is subject to availability of seats and eligibility of the student.</li>
+                                                                    <li>In case of withdrawal of admission, I am aware that I am not entitled for refund of any fee deposited, irrespective of when my ward was admitted. I abide to pay fee dues if any.</li>
+                                                                    <li>DPS does not have inter branch transfer policy.</li>
+                                                                    <li>In the case of residential admission, I understand that after admission confirmation, request for day schooling is not entertained during the academic year.</li>
+                                                                    <li>Request for changing from Cambridge International curriculum to CBSE is not accepted after registration and confirmation of admission.</li>
+                                                                    <li>In case of any damage/loss caused to the school property by my ward, the damage charges will be paid to the school to the extent of the cost applicable.</li>
+                                                                    <li>The school reserves the right to expel my ward anytime, including the final external examination period for indulging in any act of gross misconduct/indiscipline and on that cause any action taken by the school or any matter concerning, with my ward will be final and binding on me.</li>
+                                                                    <li>DPS Nacharam plies school buses on the fixed routes with limited stops. It will not be obligatory on the part of the school authorities to make new bus stops. It will be the sole responsibility of us to escort the pupil to and fro from the respective bus stop. I am aware that the routes and stops are subject to changes and no request for pick up /drop of my ward other than the designated point and no request for travelling other than the designated route is accepted.</li>
+                                                                    <li>I do understand that programming and philosophy of education at DPS is to emphasize overall development of the child along with sports, excursions and other co-curricular activities besides academics. I shall permit my ward to participate and fully cooperate with the school in this regard.</li>
+                                                                    <li>I have no objection in receiving SMS from School.</li>
+                                                                    <li>I abide by the given fee structure . I am aware that there is a different fee structure within the class and also aware that it is subject to revision every year. I abide to pay the fee in time.</li>
+                                                                    <li> I abide to submit my ward's Transfer Certificate and copy of annual academic report card within the time stipulated by school for ratification of my ward's admission.</li>
+                                                                    <li>I assure that the information provided in this application form is correct to the best of my knowledge and belief. I will not request for correction/changes in name of my ward/ in our (parents) names and date of birth of my ward. I promise to abide by the school rules and regulations and abide by any change of school timing,programmes,planning,etc.</li>
+
+                                                                </ul>
+                                                            </div>
+
+                                                            <div class="row justify-content-between">
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>Relation with Student</label>
+                                                                    <select class="form-select">
+                                                                        <option>Please choose</option>
+                                                                        <option>Please choose</option>
+                                                                        <option>Please choose</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="col-12 col-sm-4">
+                                                                    <label>Relation with Student</label>
+                                                                    <textarea class="form-control"></textarea>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="accordion-item mt-40">
+                                                    <h2 class="accordion-header" id="panelsStayOpen-headingSeventeen">
+                                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeventeen" aria-expanded="true" aria-controls="panelsStayOpen-collapseSeventeen">
+                                                            UNDERTAKING
+                                                        </button>
+                                                      </h2>
+                                                      <div id="panelsStayOpen-collapseSeventeen" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingSeventeen">
+                                                        <div class="accordion-body">
+                                                            <div class="row">
+                                                               <ul>
+                                                                <li>I do hereby agree and declare that:</li>
+                                                               </ul>
+                                                               <p>1. My ward studying in class of Delhi Public School, Nacharam may be permitted to take part in Inter School Sports or Co-curricular competition /any camp / course / adventure / training / treks / swimming / NCC / mountaineering / rock climbing / hiking / skating / cycling / horse riding /yoga/ field trips/Excursions/or any adventure activities which involve risk, organized by the school for the students’ practice / show / competition at all levels. I undertake and agree to hold the school and its staff indemnified against all such claims that may arise out of any loss or fatal injury to the property or person which my ward may suffer while or in consequence of participation in any such activity.</p>
+
+                                                                <p>2. I understand that the school shall take all possible efforts to ensure the safety of my child in the school /school bus/ hostel. In spite of their efforts, in the unfortunate event of any injury/harm/accident/loss of life during the course of stay of my child in school /school bus/ hostel, I shall not hold the school or the authorities responsible for the same.</p>
+                                                                
+                                                                <p>3. I understand that the school mess is an optional facility and is outsourced to an agent. Though school shall take all precautions of food safety and hygiene, however in case of any health ailments arising due to this facility, I shall not hold the school or the authorities responsible for the same.</p>
+                                                            </div>
+
+                                                            <div class="row">
+                                                                <div class="col-12 col-sm-8">
+                                                                    <label>Scholastic analysis process will be initiated. Please select one of the option for interaction.</label>
+                                                                </div>
+                                                                <div class="col-12 col-sm-4">
+                                                                    <select class="form-select">
+                                                                        <option>Please choose</option>
+                                                                        <option>Please choose</option>
+                                                                        <option>Please choose</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="row">
+                                                                <div class="optLink text-center"><a href="#">Request OTP</a></div>
+                                                            </div>
+
+                                                            <div class="row justify-content-center">
+                                                                <div class="col col-4 align-self-center">
+                                                                    <label>Enter One Time Password (OTP)</label>
+                                                                    <input type="text" placeholder="Please enter details">
+                                                                  </div>
+                                                                  <div class="col col-2">
+                                                                    <button type="button" class="btn btn-orange mt-40" href="#">VERIFY</button>
+                                                                  </div>
+                                                            </div>
+
+                                                        </div>
+                                                      </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="row nav-buttons-bottom">
+                                            <div class="container text-end">
+                                                <button class="btn btn-outline-secondary prev mr-30" href="#step6" data-toggle="tab" data-step="6" aria-expanded="true" >Previous</button>
+                                                <button class="btn btn-success next" href="#" data-toggle="tab" data-step="#" aria-expanded="true" >Next</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                
+
+
+                                    
+
+
+                            </div>
+
+                            
+                        </form> 
+                    </div>
+                 </div>
+            </div>
+        </section>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="assets/js/bootstrap-datepicker.min.js"></script>
+    <script src="assets/js/bootstrap_3_4_1.min.js"></script>
+    <script src="assets/js/bootstrap-filestyle.min.js"></script>
+    <script>
+        $('.icondemo').filestyle({
+ 
+            iconName : 'fa fa-plus',
+            
+            buttonText : 'No file selected',
+            
+            buttonName : 'btn-orange'
+            
+        });
+        $('.datepicker').datepicker({
+        });
+        $('.prev').click(function(){
+
+            var prevId = $(this).parents('.tab-pane').prev().attr("id");
+            var percent = "0%";
+            if(prevId =='step1'){
+                percent = "0%";
+                step ='1';
+            }
+            else if(prevId == 'step2'){
+                percent = "15%";
+                step ='2';
+            }
+            else if(prevId == 'step3'){
+                percent = "30%";
+                step ='3';
+            }
+            else if(prevId == 'step4'){
+                percent = "45%";
+                step ='4';
+            }
+            else if(prevId == 'step5'){
+                percent = "60%";
+                step ='5';
+            }
+            else if(prevId == 'step6'){
+                percent = "75%";
+                step ='6';
+            }
+            else if(prevId == 'step7'){
+                percent = "90%";
+                step ='7';
+            }
+            $('.progressvalue').text(percent);
+            
+            if(prevId =='step1'){
+                $('.progress-bar').css({width: '7%'});
+            }else{
+             $('.progress-bar').css({width: percent});
+            }
+            $('ul.nav.nav-pills li:nth-child('+step+')').addClass("active");
+             $('ul.nav.nav-pills li:not(:nth-child('+step+'))').removeClass("active");
+            // return false;
+
+            })
+
+            $('.next').click(function(){
+
+            var nextId = $(this).parents('.tab-pane').next().attr("id");
+            var percent = "0%";
+            if(nextId =='step1'){
+                percent = "0%";
+                step ='1';
+            }
+            else if(nextId == 'step2'){
+                percent = "15%";
+                step ='2';
+            }
+            else if(nextId == 'step3'){
+                percent = "30%";
+                step ='3';
+            }
+            else if(nextId == 'step4'){
+                percent = "45%";
+                step ='4';
+            }
+            else if(nextId == 'step5'){
+                percent = "60%";
+                step ='5';
+            }
+            else if(nextId == 'step6'){
+                percent = "75%";
+                step ='6';
+            }
+            else if(nextId == 'step7'){
+                percent = "90%";
+                step ='7';
+            }
+            $('.progressvalue').text(percent);
+            
+            if(nextId =='step1'){
+                $('.progress-bar').css({width: '7%'});
+            }else{
+             $('.progress-bar').css({width: percent});
+            }
+
+             $('ul.nav.nav-pills li:nth-child('+step+')').addClass("active");
+             $('ul.nav.nav-pills li:not(:nth-child('+step+'))').removeClass("active");
+
+            })
+
+            $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+
+            //update progress
+            var step = $(e.target).data('step');
+            var percent = "0%";
+            if(step ==1){
+                percent = "0%";
+            }
+            else if(step == 2){
+                percent = "15%";
+            }
+            else if(step == 3){
+                percent = "30%";
+            }
+            else if(step == 4){
+                percent = "45%";
+            }
+            else if(step == 5){
+                percent = "60%";
+            }
+            else if(step == 6){
+                percent = "75%";
+            }
+            else if(step == 7){
+                percent = "90%";
+            }
+            $('.progressvalue').text(percent);
+            
+            if(step ==1){
+                $('.progress-bar').css({width: '7%'});
+            }else{
+             $('.progress-bar').css({width: percent});
+            }
+
+            })
+
+            $('.first').click(function(){
+
+            $('#myWizard a:first').tab('show')
+
+            })
+    </script>
+</body>
+</html>

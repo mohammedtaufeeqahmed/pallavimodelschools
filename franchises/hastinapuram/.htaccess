@@ -1,0 +1,17 @@
+<IfModule mod_rewrite.c>
+
+RewriteOptions inherit
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L] 
+
+
+</IfModule>
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^pisbachupally\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.pisbachupally\.org$
+RewriteRule ^/?$ "https\:\/\/pisbachupally\.org\/" [R=301,L]
